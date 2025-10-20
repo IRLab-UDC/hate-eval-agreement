@@ -10,7 +10,6 @@ Soon! 🚀
 
 
 ```markdown
-```
 .
 ├── data/
 │   ├── DETESTS.csv         # DETESTS dataset and predictions
@@ -26,7 +25,6 @@ Soon! 🚀
 │   └── inference.py        # Generates LLM-based judgements for each dataset
 │
 └── README.md
-```
 ```
 
 
