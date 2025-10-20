@@ -8,17 +8,26 @@ Soon! 🚀
 
 # 🗂️ Project Structure
 
+
+```markdown
+```
 .
 ├── data/
 │   ├── DETESTS.csv         # DETESTS dataset and predictions
 │   ├── HateXplain.tsv      # HateXplain dataset and predictions
-│   └── MHS.tsv             # MHS dataset dataset and predictions (only rows with 3 anotators)
+│   └── MHS.tsv             # MHS dataset and predictions (only rows with 3 annotators)
 │
 ├── src/
-│   ├── compute_agreement.py     # Computes Cohen’s κ, Fleiss’ κ, Krippendorff’s α, and xRR
-│   ├── compute_correlation.py   # Ranking correlation experiment (Kendall’s τ)
-│   ├── simulate_degradation.py  # Generates synthetic classifiers with controlled degradation
+│   ├── iaa/
+│   │   ├── agreement.py    # Computes Cohen’s κ, pairwise, leave one out, cross-dataset, etc.
+│   │   └── xrr.py          # Computes cross-Rater Reliability (xRR), Fleiss’ κ, and Krippendorff’s α
+│   │
+│   ├── correlation.py      # Ranking correlation experiment (Kendall’s τ)
+│   └── inference.py        # Generates LLM-based judgements for each dataset
+│
 └── README.md
+```
+```
 
 
 # ⚙️ Setup
