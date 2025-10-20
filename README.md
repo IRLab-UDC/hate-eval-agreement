@@ -1,12 +1,12 @@
 # 🧩 Can LLMs Evaluate What They Cannot Annotate? Revisiting Reliability in Hate Speech Detection
 
 
-# 📑 Citation
+## 📑 Citation
 
 Soon! 🚀
 
 
-# 🗂️ Project Structure
+## 🗂️ Project Structure
 
 
 ```markdown
@@ -28,7 +28,7 @@ Soon! 🚀
 ```
 
 
-# ⚙️ Setup
+## ⚙️ Setup
 
 1. Install dependencies:
 
@@ -39,14 +39,14 @@ pip install -r requirements.txt
 2. (Optional) Set your environment variables for LLM API access:
 
 ```bash
-OPENAI_API_KEY=<your_api_key>
+PATH=<your_path>
 HF_TOKEN=<your_hf_token>
 ```
 
 3. Run the experiments using the provided scripts.
 
 
-# 🔮 Generating LLM Judgements
+## 🔮 Generating LLM Judgements
 
 We use instruction-tuned LLMs to automatically label social media messages as hate speech (`True`) or non-hate (`False`).
 
@@ -57,7 +57,7 @@ This script performs batched inference with consistent prompts, model-specific c
 Run the inference script to generate predictions from any supported model:
 
 ```bash
-python inference.py \
+python src/inference.py \
   --dataset data/<dataset_name>.csv \
   --model <model> \
   --output <output_file_name>
@@ -73,7 +73,7 @@ python inference.py \
 | `--start_id` | Optional row index to resume interrupted runs. |
 
 
-# 🧮 Agreement Analysis
+## 🧮 Agreement Analysis
 
 Compute inter-annotator agreement metrics:
 
@@ -98,7 +98,7 @@ python src/iaa/xrr.py
 Outputs include per-dataset summaries and visualisations of agreement distributions.
 
 
-# 📊 Ranking Correlation Experiment
+## 📊 Ranking Correlation Experiment
 
 Evaluate LLMs as evaluators instead of annotators, testing whether they can replicate human-based model rankings.
 
@@ -118,7 +118,7 @@ python src/correlation.py
 
 
 
-# ⚠️ Disclaimer
+## ⚠️ Disclaimer
 
 This repository includes research content that may involve hate speech or offensive language.
 Such content is used solely for research and analysis purposes in the context of hate speech detection.
@@ -127,17 +127,17 @@ The authors and maintainers do not endorse or promote any hateful or discriminat
 Users are advised to handle the data responsibly and in compliance with ethical guidelines.
 
 
-# 🙏 Acknowledgements
+## 🙏 Acknowledgements
 
 Soon! 🚀
 
 
-# 📜 License
+## 📜 License
 
 This project is licensed under the Apache License 2.0 – see the LICENSE
  file for details.
 
 
-# 📬 Contact
+## 📬 Contact
 
 Soon! 🚀

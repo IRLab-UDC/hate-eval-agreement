@@ -1,0 +1,22 @@
+# Core libraries
+pandas
+numpy
+tqdm
+python-dotenv
+
+# LLMs and transformers
+transformers
+torch
+unsloth
+accelerate
+bitsandbytes
+
+# Statistical analysis and agreement metrics
+scipy
+statsmodels
+krippendorff
+scikit-learn
+
+# Plotting (if used for correlation visualization)
+matplotlib
+seaborn
