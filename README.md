@@ -3,8 +3,17 @@
 
 ## 📑 Citation
 
-Soon! 🚀
-
+```bash
+@misc{piot2025llmsevaluateannotaterevisiting,
+      title={Can LLMs Evaluate What They Cannot Annotate? Revisiting LLM Reliability in Hate Speech Detection}, 
+      author={Paloma Piot and David Otero and Patricia Martín-Rodilla and Javier Parapar},
+      year={2025},
+      eprint={2512.09662},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2512.09662}, 
+}
+```
 
 ## 🗂️ Project Structure
 
@@ -129,7 +138,7 @@ Users are advised to handle the data responsibly and in compliance with ethical 
 
 ## 🙏 Acknowledgements
 
-Soon! 🚀
+The authors thank the funding from the Horizon Europe research and innovation programme under the Marie Skłodowska-Curie Grant Agreement No. 101073351. Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or the European Research Executive Agency (REA). Neither the European Union nor the granting authority can be held responsible for them. The authors thank the financial support supplied by the grant PID2022-137061OB-C21 funded by MI-CIU/AEI/10.13039/501100011033 and by “ERDF/EU”. The authors also thank the funding supplied by the Consellería de Cultura, Educación, Formación Profesional e Universidades (accreditations ED431G 2023/01 and ED431C 2025/49) and the European Regional Development Fund, which acknowledges the CITIC, as a center accredited for excellence within the Galician University System and a member of the CIGUS Network, receives subsidies from the Department of Education, Science, Universities, and Vocational Training of the Xunta de Galicia. Additionally, it is co-financed by the EU through the FEDER Galicia 2021-27 operational program (Ref. ED431G 2023/01).
 
 
 ## 📜 License
@@ -140,4 +149,6 @@ This project is licensed under the Apache License 2.0 – see the LICENSE
 
 ## 📬 Contact
 
-Soon! 🚀
+For further questions, inquiries, or discussions related to this project, please feel free to reach out via email:
+
+- **Email:** [paloma.piot@udc.es](mailto:paloma.piot@udc.es)
