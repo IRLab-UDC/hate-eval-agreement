@@ -1,5 +1,6 @@
 # 🧩 Can LLMs Evaluate What They Cannot Annotate? Revisiting Reliability in Hate Speech Detection
 
+This work was accepted at the Fifteenth biennial Language Resources and Evaluation Conference (LREC 2026). Preprint [here](https://arxiv.org/abs/2512.09662)! 📄
 
 ## 📑 Citation
 
