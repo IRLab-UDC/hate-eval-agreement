@@ -5,14 +5,18 @@ This work was accepted at the Fifteenth biennial Language Resources and Evaluati
 ## 📑 Citation
 
 ```bash
-@misc{piot2025llmsevaluateannotaterevisiting,
-      title={Can LLMs Evaluate What They Cannot Annotate? Revisiting LLM Reliability in Hate Speech Detection}, 
-      author={Paloma Piot and David Otero and Patricia Martín-Rodilla and Javier Parapar},
-      year={2025},
-      eprint={2512.09662},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2512.09662}, 
+@inproceedings{piot-etal-2026-can,
+  title = {Can LLMs Evaluate What They Cannot Annotate? Revisiting LLM Reliability in Hate Speech Detection},
+  author = {Piot, Paloma and Otero, David and Martin-Rodilla, Patricia and Parapar, Javier},
+  booktitle = {Proceedings of the Fifteenth Language Resources and Evaluation Conference (LREC 2026)},
+  month = {May},
+  year = {2026},
+  pages = {4358--4370},
+  address = {Palma, Mallorca, Spain},
+  publisher = {European Language Resources Association (ELRA)},
+  editor = {Piperidis, Stelios and Bel, Núria and van den Heuvel, Henk and Ide, Nancy and Krek, Simon and Toral, Antonio},
+  doi = {10.63317/22n5hekovvrz},
+  abstract = {Hate speech spreads widely online and harms both individuals and communities, making automatic detection essential for large-scale moderation. However, accurately detecting hate speech remains a difficult task. Part of the challenge lies in subjectivity: what one person flags as hate speech, another may see as benign. Traditional annotation agreement metrics, such as Cohen’s k, oversimplify this disagreement, treating it as an error rather than meaningful diversity. Meanwhile, Large Language Models (LLMs) promise scalable annotation, but prior studies demonstrate that they cannot fully replace human judgement, especially in subjective tasks. In this work, we reexamine LLM reliability using a subjectivity-aware framework, cross-Replication Reliability (xRR), revealing that even under fairer lens, LLMs still diverge from humans. Yet this limitation opens an opportunity: we find that LLM-generated annotations can reliably reflect performance trends across classification models, correlating with human evaluations. We test this by examining whether LLM-generated annotations preserve the relative ordering of model performance derived from human evaluation (i.e. whether models ranked as more reliable by human annotators preserve the same order when evaluated with LLM-generated labels). Our results show that, although LLMs differ from humans at the instance level, they reproduce similar ranking and classification patterns, suggesting their potential as proxy evaluators. While not a substitute for human annotators, they might serve as a scalable proxy for evaluation in subjective NLP tasks.}
 }
 ```
 
